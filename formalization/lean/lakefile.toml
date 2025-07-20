@@ -1,0 +1,10 @@
+name = "logical_emergence"
+version = "0.1.0"
+defaultTargets = ["logical_emergence"]
+
+[[lean_lib]]
+name = "LogicalEmergence"
+
+[[lean_exe]]
+name = "logical_emergence"
+root = "Main"
