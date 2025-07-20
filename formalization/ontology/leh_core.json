@@ -1,0 +1,17 @@
+{
+  "LogicLaw": {
+    "Identity": "A = A",
+    "NonContradiction": "¬(A ∧ ¬A)",
+    "ExcludedMiddle": "A ∨ ¬A"
+  },
+  "EmergenceTransition": {
+    "trigger": "organizational_crisis",
+    "mechanism": "necessary_apparatus_emergence",
+    "verification": "formal_proof_required"
+  },
+  "ProofTask": {
+    "level": ["1", "2", "3", "4", "5"],
+    "type": ["necessity", "sufficiency", "uniqueness"],
+    "status": ["planned", "in_progress", "verified", "failed"]
+  }
+}

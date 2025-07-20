@@ -1,0 +1,35 @@
+name: Proof Task
+description: Track and assign formal proof tasks
+title: "[Proof Task] "
+labels: [proof, task]
+body:
+  - type: dropdown
+    id: level
+    attributes:
+      label: Emergence Level
+      options:
+        - Level 1→2 (Logic → Mathematics)
+        - Level 2→3 (Mathematics → Geometry)
+        - Level 3→4 (Geometry → Quantum)
+        - Level 4→5 (Quantum → Physical Reality)
+    validations:
+      required: true
+  - type: input
+    id: theorem
+    attributes:
+      label: Theorem / Lemma Name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - planned
+        - in_progress
+        - verified
+        - failed
