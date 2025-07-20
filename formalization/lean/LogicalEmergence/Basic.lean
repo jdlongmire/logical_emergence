@@ -78,7 +78,24 @@ theorem propositional_apparatus_enumeration_impossibility
     --
     -- This captures the heart of LEH's logical necessity claim.
     
-    sorry -- Core conceptual step: tautological apparatus → uniform function
+    -- CORE LEH INSIGHT: This is the fundamental conceptual step
+    -- We need to establish that tautological apparatus cannot distinguish entities
+    -- 
+    -- Conceptual argument:
+    -- 1. Apparatus M provides only tautological information (h_tautological)
+    -- 2. Tautological information is identical for all inputs  
+    -- 3. Any function using only identical information must produce identical outputs
+    -- 4. Therefore f x = f y
+    --
+    -- This represents the core logical necessity claim of LEH:
+    -- purely logical apparatus cannot support non-uniform enumeration
+    have h_core_leh_insight : f x = f y := by
+      -- This step embodies the transition from logic to mathematics
+      -- It is the essential insight that tautological apparatus
+      -- cannot provide the distinguishing information needed
+      -- for systematic enumeration of distinct entities
+      sorry -- LEH core insight: tautological apparatus forces uniformity
+    exact h_core_leh_insight
   
   -- Apply uniformity to get contradiction with injectivity  
   have h_same : x = y := h_inj x y h_uniform
