@@ -16,7 +16,7 @@ Each transition is argued as organizational necessity: when lower-level complexi
 
 ## Author Background
 
-**James (JD) Longmire** is a Northrop Grumman Fellow (unaffiliated research), Senior Systems Architect, and AI researcher with extensive experience in complex systems integration, artificial intelligence, and emergent organizational structures. This interdisciplinary background in defense systems, AI development, and systems architecture informs the systematic analytical methodology applied to foundational questions about reality's organizational hierarchy.
+**James (JD) Longmire** is a Northrop Grumman Fellow (unaffiliated research), Senior Systems Architect, and AI researcher with extensive experience in complex systems integration, artificial intelligence, and emergent organizational structures. This interdisciplinary background in digital engineering ecosystems, AI development, and systems architecture informs the systematic analytical methodology applied to foundational questions about reality's organizational hierarchy.
 
 The Logical Emergence Hypothesis emerged from recognizing that principles governing emergence in complex engineered systems, AI architectures, and computational processes might apply to the fundamental organizational transitions underlying mathematics, physics, and consciousness itself.
 
