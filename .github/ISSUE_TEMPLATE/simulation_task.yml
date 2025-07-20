@@ -1,0 +1,24 @@
+name: Simulation Task
+description: Track simulation tasks and experiments
+title: "[Simulation Task] "
+labels: [simulation, task]
+body:
+  - type: input
+    id: simulation
+    attributes:
+      label: Simulation Name
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of simulation goals and parameters
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - planned
+        - in_progress
+        - validated
+        - failed

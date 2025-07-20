@@ -1,0 +1,17 @@
+name: Ontology Update
+description: Propose or track ontology changes
+title: "[Ontology Update] "
+labels: [ontology]
+body:
+  - type: textarea
+    id: proposed_changes
+    attributes:
+      label: Proposed Changes
+  - type: input
+    id: justification
+    attributes:
+      label: Justification
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
