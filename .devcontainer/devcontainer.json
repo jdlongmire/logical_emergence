@@ -5,7 +5,7 @@
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers/features/git:1": {}
   },
-  "postCreateCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh && source ~/.profile && elan install leanprover/lean4:stable && elan default leanprover/lean4:stable",
+  "postCreateCommand": "bash -c 'curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y && echo \"export PATH=\\$HOME/.elan/bin:\\$PATH\" >> ~/.bashrc && source ~/.bashrc && elan install leanprover/lean4:stable && elan default leanprover/lean4:stable'",
   "customizations": {
     "vscode": {
       "extensions": [
