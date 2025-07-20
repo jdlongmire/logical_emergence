@@ -120,6 +120,29 @@ This work represents humanity's potentially final systematic attempt to understa
 └── README.md                                        # This file
 ```
 
+## What's Next: Logical Emergence Theory (LET)
+
+The philosophical foundation (LEH) opens the path toward:
+- **Mathematical formalization** of emergence transitions
+- **Computational simulations** demonstrating the hierarchy
+- **Empirical predictions** distinguishing LEH from standard physics
+- **Technological applications** exploiting computational organizational principles
+
+### AI-Accelerated Formalization Project
+
+**[→ View the Complete Formalization Proposal](https://github.com/jdlongmire/logical_emergence/blob/main/LEH_Formalization_Proposal.md)**
+
+We are developing an AI-accelerated approach to formalizing LEH using multi-agent systems, automated theorem proving in Lean, and computational validation. The proposal outlines a 24-month research program to create machine-verified proofs of logical necessity across all emergence transitions.
+
+**Key Features:**
+- Multi-agent AI collaboration for parallel proof development
+- Formal verification in Lean theorem prover
+- Computational simulations of emergence transitions  
+- Novel testable predictions for experimental validation
+- Open-source methodology for AI-accelerated theoretical research
+
+**Status:** Seeking collaborators and funding for full implementation. Pilot program can begin immediately.
+
 ## Citation
 
 If you reference this work, please cite the complete corpus:
